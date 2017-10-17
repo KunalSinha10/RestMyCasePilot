@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/parentLayout"
+    android:background="#2D3F51"
+    android:fitsSystemWindows="true"
+    tools:context="com.sinha.saarth.restmycase.MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+    <ListView  app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:id="@+id/listView"
+        android:layout_width="fill_parent"
+        android:layout_marginTop="4dp"
+        android:layout_height="match_parent" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@drawable/add_button" />
+
+    <TextView
+        android:id="@+id/textFamily"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="185dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="485dp"
+        android:textSize="20dp"
+        android:background="@drawable/sample2"
+        android:textColor="#2D3F51"
+        android:text="Family Law"
+        android:visibility="invisible"/>
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabFamily"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginEnd="@dimen/fab_margin"
+        android:layout_marginRight="@dimen/fab_margin"
+        android:layout_marginBottom="80dp"
+        android:src="@drawable/ic_family"
+        android:visibility="invisible"/>
+    <TextView
+        android:id="@+id/textCriminal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="175dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="425dp"
+        android:textSize="20dp"
+        android:background="@drawable/sample2"
+        android:textColor="#2D3F51"
+        android:text="Criminal Law"
+        android:visibility="invisible"/>
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabCriminal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginEnd="@dimen/fab_margin"
+        android:layout_marginRight="@dimen/fab_margin"
+        android:layout_marginBottom="140dp"
+        android:src="@drawable/ic_criminal"
+        android:visibility="invisible"/>
+    <TextView
+        android:id="@+id/textProperty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="175dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="365dp"
+        android:textSize="20dp"
+        android:background="@drawable/sample2"
+        android:textColor="#2D3F51"
+        android:text="Property Law"
+        android:visibility="invisible"/>
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabProperty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginEnd="@dimen/fab_margin"
+        android:layout_marginRight="@dimen/fab_margin"
+        android:layout_marginBottom="200dp"
+        android:src="@drawable/ic_property"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:id="@+id/textCivil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="305dp"
+        android:textSize="20dp"
+        android:background="@drawable/sample2"
+        android:textColor="#2D3F51"
+        android:text="Civil Law"
+        android:visibility="invisible"/>
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabCivil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginEnd="@dimen/fab_margin"
+        android:layout_marginRight="@dimen/fab_margin"
+        android:layout_marginBottom="260dp"
+        android:src="@drawable/ic_civil"
+        android:visibility="invisible"/>
+
+       <TextView
+           android:id="@+id/textBare"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="200dp"
+           android:layout_marginRight="10dp"
+           android:layout_marginTop="245dp"
+           android:background="@drawable/sample2"
+           android:textSize="20dp"
+           android:textColor="#2D3F51"
+           android:text="Bare Act"
+           android:visibility="invisible"/>
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabBareAct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginEnd="@dimen/fab_margin"
+        android:layout_marginRight="@dimen/fab_margin"
+        android:layout_marginBottom="320dp"
+        android:src="@drawable/ic_bare"
+        android:visibility="invisible"/>
+
+</android.support.design.widget.CoordinatorLayout>
